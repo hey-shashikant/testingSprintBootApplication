@@ -11,7 +11,7 @@ public class ShashikantSpringBootApplication {
 
     @GetMapping("/message")
     public String message() {
-        return "Congrats Shashikant Solanki! You have successfully deployed in Azure.";
+        return "Congrats Nikhil ! You have successfully deployed in Azure.";
     }
     public static void main(String[] args) {
         SpringApplication.run(ShashikantSpringBootApplication.class, args);
